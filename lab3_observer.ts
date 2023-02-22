@@ -5,7 +5,6 @@ interface Sensor {
 class SmokeSensor implements Sensor {
   notify() {
     console.log("Smoke detected. Turning off all sensors.");
-    // Вимикання всіх інших датчиків
   }
 }
 
@@ -22,7 +21,6 @@ class LightSensor implements Sensor {
 class WaterSensor implements Sensor {
   notify() {
     console.log("Water leakage detected.");
-    // Виклик служби підтримки
   }
 }
 
